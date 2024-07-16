@@ -1,0 +1,69 @@
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Images/Img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9); /* Whitish shade */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjusted opacity for transparency */
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+  backdrop-filter: blur(10px);
+  width: 400px;
+}
+
+.login-form h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #344265;
+}
+
+.login-form .ant-form-item-label label {
+  color: #344265 !important;
+}
+
+.login-form button {
+  background-color: #344265;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 25px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.login-form a {
+  color: #344265 !important;
+  text-decoration: underline;
+}
+
+.login-form a:hover {
+  color: black !important;
+}
